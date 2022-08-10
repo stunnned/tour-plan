@@ -322,27 +322,28 @@ template {
   display: none;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
-.header .search {
+
+.search {
   display: flex;
   position: relative;
   overflow: hidden;
   border-radius: 6px;
 }
-.header .search__input {
+.search__input {
   background-color: #F5FAFE;
   width: 350px;
   height: 40px;
@@ -352,7 +353,7 @@ template {
   padding-left: 23px;
   padding-right: 75px;
 }
-.header .search__button {
+.search__button {
   position: absolute;
   background-color: #EC1F46;
   border: none;
@@ -360,19 +361,20 @@ template {
   height: 100%;
   right: 0;
 }
-.header .user {
+
+.user {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-.header .user__avatar {
+.user__avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.header .user__name {
+.user__name {
   font-size: 14px;
   line-height: 18px;
   margin-left: 18px;
